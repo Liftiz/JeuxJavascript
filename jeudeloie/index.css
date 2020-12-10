@@ -1,0 +1,149 @@
+ #jeu{
+     display: flex;
+ }
+ 
+ table
+{
+margin: auto;
+
+}
+td
+{
+text-align :center;
+height: auto;
+width: 60px;
+font-weight: bold;
+color: #3a8a9e;
+}
+
+table td {
+    padding : 20px;
+    
+ 
+}
+
+tr{
+    display: flex;  
+}
+
+#depart{
+    border-bottom: 1px solid  #bab1ba ;
+    border-right: 1px solid  #bab1ba ;
+    border-top: 1px solid  #bab1ba ;
+}
+
+.premierL{
+border-bottom: 1px solid  #bab1ba ;
+border-top: 1px solid  #bab1ba ;
+}
+
+.coinBasG{ 
+    border-bottom: 1px solid  #bab1ba ;
+    border-left: 1px solid  #bab1ba ;
+}
+
+.deuxiemeL{
+    border-left: 1px solid  #bab1ba ;
+    border-right: 1px solid  #bab1ba ;
+}
+
+.coinHautG{
+    border-left: 1px solid  #bab1ba ;
+    border-top: 1px solid  #bab1ba ;
+}
+
+.troisiemeL{
+   border-bottom: 1px solid  #bab1ba ;
+   border-top: 1px solid  #bab1ba ;
+}
+
+.coinHautD{
+    border-top: 1px solid  #bab1ba ;
+    border-right: 1px solid  #bab1ba ;
+}
+
+.quatriemeL{
+    border-right: 1px solid  #bab1ba ;
+    border-left: 1px solid  #bab1ba ;
+}
+
+#coinBasD{
+    border-right: 1px solid  #bab1ba ;
+    border-bottom: 1px solid  #bab1ba ;
+}
+
+.cinqL{
+    border-bottom: 1px solid  #bab1ba ;
+    border-top: 1px solid  #bab1ba ;
+}
+
+#arrive{
+    border-bottom: 1px solid #bab1ba ;
+    border-right: 1px solid #bab1ba ;
+    border-left: 1px solid #bab1ba ;
+}
+
+/* Bouton Dé / Carte:  */
+
+.classname {
+	-moz-box-shadow: 3px 4px 14px 0px #899599;
+	-webkit-box-shadow: 3px 4px 14px 0px #899599;
+	box-shadow: 3px 4px 14px 0px #899599;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #bab1ba 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:19px;
+	-moz-border-radius-topleft:19px;
+	border-top-left-radius:19px;
+	-webkit-border-top-right-radius:19px;
+	-moz-border-radius-topright:19px;
+	border-top-right-radius:19px;
+	-webkit-border-bottom-right-radius:19px;
+	-moz-border-radius-bottomright:19px;
+	border-bottom-right-radius:19px;
+	-webkit-border-bottom-left-radius:19px;
+	-moz-border-radius-bottomleft:19px;
+	border-bottom-left-radius:19px;
+text-indent:0;
+	border:2px solid #d6bcd6;
+	display:inline-block;
+	color:#3a8a9e;
+	font-family:Verdana;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+height:auto;
+	line-height:45px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #e1e2ed;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #bab1ba 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed');
+	background-color:#bab1ba;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.interface{
+    display: inline-flex;
+    flex-direction: column ;
+    
+}
+
+#tourInfo{
+    position: relative;
+    right: 400px;
+    top: -250px;
+    font-size: 35px;
+    color: #3a8a9e;
+}
